@@ -8,3 +8,7 @@ Utility is easy for use, only put this file on disk when you want measure disk s
 <pre>
 python disk_speed.py
 </pre>
+Without parametr utility work with default values, write 1MB block 50x to disk and calculate speed. You can parameterized too,  it use following form:
+<pre>
+python disk_speed [size block] [unit | K,M,G] [count block]
+</pre>
