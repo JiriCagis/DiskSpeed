@@ -33,7 +33,7 @@ def showLogo():
 	"| |   ) |  | |        ) |  ( \ \         ) | (     | (     | (     | |   ) |\n" + \
 	"| (__/  ___) (__/\____) |  /  \ \  /\____) | )     | (____/| (____/| (__/  )\n" + \
 	"(______/\_______\_______|_/    \/  \_______|/      (_______(_______(______/ " + str(APP_VERSION)
-	print "DEVELOP BY: Jiri Caga\n"
+	print "DEVELOP BY: Jiri Caga (November 2015)\n"
 
 # -----------------
 # PREPARE INPUT ARGS
