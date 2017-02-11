@@ -1,10 +1,9 @@
 <h1> Disk Speed </h1>
-It is terminal utility for detections your average disk speed with write date to disk. 
-Utility is simple for use, only put this file on disk when you want measure speed and you write to console:
+It is a terminal utility for detections your average disk speed. An algorithm writes dummmy data on a test disk nd it measures time for write. The utility is simple for use, you only put this file on disk where you want measure speed and you write to a console:
 <pre>
 python disk_speed.py
 </pre>
-Without parameter utility works with default values, write 1MB block 50x to disk and calculate speed. You can parameterized too, it use following form:
+Without parameter utility works with default values, it writes 1MB block 50x to disk and it calculates speed. You can add parameters too, it use following form:
 <pre>
 python disk_speed [size block] [unit | K,M,G] [count block]
 </pre>
